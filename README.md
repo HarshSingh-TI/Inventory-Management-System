@@ -3,8 +3,8 @@ Code Structure
 The code is organized into several functions and a class to encapsulate the functionality of the inventory management system. Below is a description of each part of the code and the rationale behind their design.
 
 1. Class Definition: Product
-Purpose: Encapsulates product attributes and provides a method to convert the product to a dictionary format, which is suitable for creating DataFrames.
-Advantage: Using a class helps in organizing product attributes and methods related to a product, enhancing code readability and maintainability.
+    Purpose: Encapsulates product attributes and provides a method to convert the product to a dictionary format, which is suitable for creating DataFrames.
+    Advantage: Using a class helps in organizing product attributes and methods related to a product, enhancing code readability and maintainability.
 
 2. Function: load_inventory
     Purpose: Loads the inventory from a CSV file. If the file does not exist or is empty, it initializes an empty DataFrame with the required columns.
@@ -39,8 +39,8 @@ Advantage: Using a class helps in organizing product attributes and methods rela
     Advantage: Provides options to view the inventory in different orders, helping users analyze the data more effectively.
 
 10. Function: main
-Purpose: Provides a menu-driven interface for interacting with the inventory management system.
-Advantage: Offers a simple command-line interface for users to choose actions, making the system easy to use and navigate.
+    Purpose: Provides a menu-driven interface for interacting with the inventory management system.
+    Advantage: Offers a simple command-line interface for users to choose actions, making the system easy to use and navigate.
 
 
 Summary
